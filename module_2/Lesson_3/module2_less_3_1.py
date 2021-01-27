@@ -8,13 +8,13 @@ def calc(x):
 
 try:
     browser = webdriver.Chrome()
-    link = "http://suninjuly.github.io/alert_accept.html"
+    link = "http://suninjuly.github.io/redirect_accept.html"
     browser.get(link)
     going = browser.find_element_by_tag_name("button")
     going.click()
 
-    alert = browser.switch_to.alert
-    alert.accept()
+    new_windows = browser.window_handles[1]
+    browser.switch_to.window(new_windows)
 
     x_element = browser.find_element_by_id("input_value")
     x = x_element.text

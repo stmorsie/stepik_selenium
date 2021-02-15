@@ -4,14 +4,14 @@ import pytest
 from selenium import webdriver
 
 
-@pytest.fixture(scope="function")
-def browser():
-    print("\nstart browser for test..")
-    browser = webdriver.Chrome()
-    browser.implicitly_wait(20)
-    yield browser
-    print("\nquit browser..")
-    browser.quit()
+# @pytest.fixture(scope="function")
+# def browser():
+#     print("\nstart browser for test..")
+#     browser = webdriver.Chrome()
+#     browser.implicitly_wait(20)
+#     yield browser
+#     print("\nquit browser..")
+#     browser.quit()
 
 @pytest.mark.parametrize('stepik_number', ["236895", "236896", "236897",
                                            "236898", "236899", "236903",

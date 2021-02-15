@@ -1,0 +1,104 @@
+1613407430113	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Анна\\AppData\\Local\\Temp\\rust_mozprofile.Dx3Xcdjbelj7"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1613407436017	Marionette	INFO	Listening on port 51806
+1613407436476	Marionette	WARN	TLS certificate errors will be ignored for this session
+1613407436493	Marionette	ERROR	[18] No reply from Marionette:Register
+JavaScript warning: https://stepik.azureedge.net/static/frontend-build/vendor.js?v=1612796559, line 2472: unreachable code after return statement
+1613407442213	Marionette	INFO	Stopped listening on port 51806
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1613407446550	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Анна\\AppData\\Local\\Temp\\rust_mozprofile.oHcRoegbo3n1"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1613407450997	Marionette	INFO	Listening on port 51907
+1613407451391	Marionette	WARN	TLS certificate errors will be ignored for this session
+1613407451412	Marionette	ERROR	[18] No reply from Marionette:Register
+JavaScript warning: https://stepik.azureedge.net/static/frontend-build/vendor.js?v=1612796559, line 2472: unreachable code after return statement
+1613407456639	Marionette	INFO	Stopped listening on port 51907
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1613407460992	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Анна\\AppData\\Local\\Temp\\rust_mozprofile.E9gqwIS9qVqj"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1613407465477	Marionette	INFO	Listening on port 52018
+1613407465901	Marionette	WARN	TLS certificate errors will be ignored for this session
+1613407465934	Marionette	ERROR	[18] No reply from Marionette:Register
+JavaScript warning: https://stepik.azureedge.net/static/frontend-build/vendor.js?v=1612796559, line 2472: unreachable code after return statement
+1613407471734	Marionette	INFO	Stopped listening on port 52018
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1613407477678	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Анна\\AppData\\Local\\Temp\\rust_mozprofile.d57J1lb8oD9l"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1613407481874	Marionette	INFO	Listening on port 52112
+1613407481992	Marionette	WARN	TLS certificate errors will be ignored for this session
+1613407482012	Marionette	ERROR	[18] No reply from Marionette:Register
+JavaScript warning: https://stepik.azureedge.net/static/frontend-build/vendor.js?v=1612796559, line 2472: unreachable code after return statement
+1613407487111	Marionette	INFO	Stopped listening on port 52112
+1613407491411	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Анна\\AppData\\Local\\Temp\\rust_mozprofile.WhAkHxDTTfnq"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+[Parent 308, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1613407495311	Marionette	INFO	Listening on port 52204
+1613407495611	Marionette	WARN	TLS certificate errors will be ignored for this session
+1613407495629	Marionette	ERROR	[18] No reply from Marionette:Register
+JavaScript warning: https://stepik.azureedge.net/static/frontend-build/vendor.js?v=1612796559, line 2472: unreachable code after return statement
+1613407501250	Marionette	INFO	Stopped listening on port 52204
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1613407505473	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Анна\\AppData\\Local\\Temp\\rust_mozprofile.nHVI1dWrPftN"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1613407509565	Marionette	INFO	Listening on port 52296
+1613407509692	Marionette	WARN	TLS certificate errors will be ignored for this session
+1613407509708	Marionette	ERROR	[18] No reply from Marionette:Register
+JavaScript warning: https://stepik.azureedge.net/static/frontend-build/vendor.js?v=1612796559, line 2472: unreachable code after return statement
+1613407515017	Marionette	INFO	Stopped listening on port 52296
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1613407519265	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Анна\\AppData\\Local\\Temp\\rust_mozprofile.j4gM8HfVmVap"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1613407523223	Marionette	INFO	Listening on port 52390
+1613407523477	Marionette	WARN	TLS certificate errors will be ignored for this session
+1613407523492	Marionette	ERROR	[18] No reply from Marionette:Register
+JavaScript warning: https://stepik.azureedge.net/static/frontend-build/vendor.js?v=1612796559, line 2472: unreachable code after return statement
+1613407529321	Marionette	INFO	Stopped listening on port 52390
+[Child 16052, IPC I/O Child] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:545
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1613407533901	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Анна\\AppData\\Local\\Temp\\rust_mozprofile.0CFg7qpmlE2g"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1613407537683	Marionette	INFO	Listening on port 52483
+1613407538105	Marionette	WARN	TLS certificate errors will be ignored for this session
+1613407538121	Marionette	ERROR	[18] No reply from Marionette:Register
+JavaScript warning: https://stepik.azureedge.net/static/frontend-build/vendor.js?v=1612796559, line 2472: unreachable code after return statement
+1613407543504	Marionette	INFO	Stopped listening on port 52483
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+

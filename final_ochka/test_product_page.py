@@ -3,7 +3,7 @@ from BasePage.product_page import ProductPage
 from BasePage.locators import ShopPageLocators
 import time
 
-bLink = "http://selenium1py.pythonanywhere.com/catalogue/the-shellcoders-handbook_209/?promo=newYear"
+bLink = "http://selenium1py.pythonanywhere.com/catalogue/coders-at-work_207/?promo=newYear2019"
 
 def test_guest_can_add_product_to_basket(browser):
     page = ProductPage(browser, bLink)  # инициализируем Page Object, передаем в конструктор экземпляр драйвера и url адрес

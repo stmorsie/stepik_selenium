@@ -14,6 +14,5 @@ class LoginPageLocators():
 
 class ShopPageLocators():
     BAG_BUTTON = (By.XPATH, "//button[contains(text(),'Add to basket')]")
-    GOOD_MESSAGE = (By.XPATH, "//div[contains(text(), 'был добавлен в корзину')]")
     PRICE_FINAL = (By.CSS_SELECTOR, "div>div>div>p>strong")
     PRICE_REAL = (By.CSS_SELECTOR, "p.price_color")

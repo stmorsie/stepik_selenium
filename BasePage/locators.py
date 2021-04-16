@@ -17,4 +17,4 @@ class ShopPageLocators():
     MESSAGE_ADD = (By.CSS_SELECTOR, ".alertinner > strong")
     BOOK_NAME = (By.CSS_SELECTOR, ".product_main > h1")
     BOOK_PRICE = (By.CSS_SELECTOR, ".product_main > .price_color")
-    BASKET_MESSAGE = (By.CSS_SELECTOR, "div.alertinner strong")
+    BASKET_PRICE = (By.CSS_SELECTOR, "div.alertinner p strong")

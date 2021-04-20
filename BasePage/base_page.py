@@ -2,6 +2,7 @@ import math
 from selenium.common.exceptions import NoSuchElementException, NoAlertPresentException, TimeoutException
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.support.wait import WebDriverWait
+from .locators import BasePageLocators
 
 class BasePage():
     def __init__(self, browser, url, timeout=10):
@@ -33,12 +34,12 @@ class BasePage():
         except NoAlertPresentException:
             print("No second alert presented")
 
-    def offer_link(link_number):
-        x = []
-        for point in range(1, link_number):
-            mask = "http://selenium1py.pythonanywhere.com/catalogue/coders-at-work_207/?promo=offer" + str(point)
-            x.append(mask)
-        return x
+    # def offer_link(link_number):
+    #     x = []
+    #     for point in range(1, link_number):
+    #         mask = "http://selenium1py.pythonanywhere.com/catalogue/coders-at-work_207/?promo=offer" + str(point)
+    #         x.append(mask)
+    #     return x
 
     def is_not_element_present(self, how, what, timeout=4):
         try:
@@ -58,6 +59,17 @@ class BasePage():
             result = False
 
         assert result is True, 'Element appeared!'
+
+    def go_to_login_page(self):
+        link = self.browser.find_element(*BasePageLocators.LOGIN_LINK)
+        link.click()
+
+    def should_be_login_link(self):
+        assert self.is_element_present(*BasePageLocators.LOGIN_LINK), "Login link is not presented"
+
+    def should_be_authorized_user(self):
+        assert self.is_element_present(*BasePageLocators.USER_ICON), "User icon is not presented," \
+                                                                     " probably unauthorised user"
 
 
 

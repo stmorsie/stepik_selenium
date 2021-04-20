@@ -34,12 +34,9 @@ class ProductPage(BasePage):
     def check_product_name_on_page_and_in_message(self):
         result = self.get_success_message_after_add_product_to_basket()
         product_name = self.get_product_name()
-
         assert result == product_name, 'Product name dont equal'
-    def add_to_card(self)->bool:
-        try:
-            self.browser.find_element(*ShopPageLocators.ADD_TO_CART_BUTTON).click()
-            return True
-        except NoSuchElementException:
-            return False
+
+    def add_to_card(self):
+        button = self.browser.find_element(*ShopPageLocators.ADD_TO_CART_BUTTON)
+        button.click()
 

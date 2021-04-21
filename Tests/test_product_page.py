@@ -1,8 +1,8 @@
-from BasePage.base_page import BasePage
-from BasePage.product_page import ProductPage
-from BasePage.locators import ShopPageLocators
-from BasePage.basket_page import BasketPage
-from BasePage.login_page import LoginPage
+from Page.base_page import BasePage
+from Page.product_page import ProductPage
+from Page.locators import ShopPageLocators
+from Page.basket_page import BasketPage
+from Page.login_page import LoginPage
 
 import time
 import pytest

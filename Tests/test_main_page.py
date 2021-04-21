@@ -1,5 +1,5 @@
-from BasePage.main_page import MainPage
-from BasePage.login_page import LoginPage
+from Page.main_page import MainPage
+from Page.login_page import LoginPage
 
 sLink = "http://selenium1py.pythonanywhere.com/ru/"
 loginLink = "http://selenium1py.pythonanywhere.com/ru/accounts/login/"

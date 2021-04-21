@@ -1,5 +1,5 @@
-from BasePage.base_page import BasePage
-from BasePage.locators import LoginPageLocators
+from Page.base_page import BasePage
+from Page.locators import LoginPageLocators
 import time
 
 link = "http://selenium1py.pythonanywhere.com/ru/accounts/login/"

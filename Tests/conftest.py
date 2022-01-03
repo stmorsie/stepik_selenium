@@ -32,6 +32,7 @@ def browser(request):
         print(f"\nuser language: {user_language}\nstart {browser_name} browser for test..")
         options = Options()
         options.add_experimental_option('prefs', {'intl.accept_languages': user_language})
+        options.add_argument("--incognito")
         browser = webdriver.Chrome(options=options)
     elif browser_name == "firefox":
         print(f"\nuser language: {user_language}\nstart {browser_name} browser for test..")

@@ -1,5 +1,5 @@
 from .base_page import BasePage
-from .locators import MainPageLocators
+from .locators import MainPageLocators, OtzivPage
 
 
 class MainPage(BasePage):
@@ -12,5 +12,8 @@ class MainPage(BasePage):
 
     def go_to_login_page(self):
         link = self.browser.find_element(*MainPageLocators.LOGIN_LINK)
+        link.click()
+    def yes_click(self):
+        link = self.browser.find_element(*OtzivPage.PRESS_YES)
         link.click()
 

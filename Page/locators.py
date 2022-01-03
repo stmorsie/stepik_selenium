@@ -29,9 +29,13 @@ class ShopPageLocators():
     BOOK_PRICE = (By.CSS_SELECTOR, ".product_main > .price_color")
     BASKET_PRICE = (By.CSS_SELECTOR, "div.alertinner p strong")
     BASKET_BUTTON = (By.CSS_SELECTOR, '.basket-mini>span>a')
+
     BASKET_EMPTY_MESSAGE = (By.XPATH, '//div[@id="content_inner"]//p[contains(text(),"Your basket is empty.")]')
 
 class BasePageLocators():
     LOGIN_LINK = (By.CSS_SELECTOR, "#login_link")
     LOGIN_LINK_INVALID = (By.CSS_SELECTOR, "#login_link_inc")
     USER_ICON = (By.CSS_SELECTOR, ".icon-user")
+
+class OtzivPage():
+    PRESS_YES = (By.CSS_SELECTOR, "#mess705241>div.ozenka-otzyva>span>a")
